@@ -1,5 +1,8 @@
-golang_spec = spec/openapi_spec.yaml
-vbr_spec = spec/swagger.json
+golang_spec1.1-rev0 = spec/V1.1-rev0/openapi_spec.yaml
+vbr_spec1.1-rev0 = spec/V1.1-rev0/swagger.json
+
+golang_spec1.0-rev1 = spec/V1.0-rev1/openapi_spec.yaml
+vbr_spec1.0-rev1 = spec/V1.0-rev1/swagger.json
 
 default: generate 
 cleanup:
